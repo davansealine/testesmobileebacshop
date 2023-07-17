@@ -1,0 +1,35 @@
+{
+  "name": "testesmobileebacshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js",
+    "report": "npx allure open allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "@wdio/allure-reporter": "^8.11.0",
+    "@wdio/browserstack-service": "^8.11.2",
+    "@wdio/cli": "^8.11.2",
+    "allure-commandline": "^2.23.0",
+    "appium": "^1.22.3",
+    "axios": "^1.4.0",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-video-reporter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^8.11.2",
+    "@wdio/mocha-framework": "^8.11.0",
+    "@wdio/spec-reporter": "^8.11.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "description": ""
+}
